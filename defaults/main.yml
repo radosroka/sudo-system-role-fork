@@ -2,6 +2,8 @@
 sudo_rewrite_default_sudoers_file: true
 sudo_remove_unauthorized_included_files: false
 
+sudo_not_touch_when_already_configured: True
+
 sudo_visudo_path: /usr/sbin/visudo
 
 sudo_sudoers_files:
